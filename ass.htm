@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build A Survey Form </title>
+    
+    <div>
+        <img src="aptech-computer-education-logo-A8053C9BA3-seeklogo.com.png" rel="APTECH">
+    <h1 style="text-align:center ;" > Survey Form</h1>
+    <link rel="shortcut icon" href="aptech-computer-education-logo-A8053C9BA3-seeklogo.com.png">
+    
+    
+    
+    </div>
+
+<style>
+        body  {
+            background-color: green;
+            text-align: center;
+            font-family: Verdana;
+        }
+        form  {
+            background-color: white;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 0.5px;
+
+        }
+         .form-control
+         {
+        display: block;
+        margin: 20px;
+        }
+        .form-control label {
+            display: block;
+            margin: 10px;
+
+
+        }
+        .form-control input,
+        .form-control select,
+        .form-control textarea
+         {
+            border: 1px solid black;
+            border-radius: 10px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%; 
+
+        }
+        .form-control input[type="radio"]
+        .form-control input[type="checkbox"]   {
+            display: inline-block;
+            width: auto;
+        }
+        button {
+            background-color: green;
+            border: 2px solid black;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            margin-top: 50px;
+             margin-bottom: 20px;
+            width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Information</legend> 
+   
+<form id="form">
+    <div class="form-control">
+        <label for="name" id="label-name">
+<br>Name</br>
+            <input type="text" id="name"
+            placeholder="Enter Your name">
+
+        </label>
+        
+    </div>
+    <div class="form-control">
+        <label for="Email" id="label-email">
+          <br>  Email</br>
+            <input type="text" id="email"
+            placeholder="Enter your Email">
+        </label>
+       
+    </label>
+    </div>
+    <div class="form-control">
+        <label for="Age" id="label-age">
+            <br>Age</br>
+            <input type="text" id="age"
+            placeholder="Enter Your Age">
+        </label>
+    </div>
+        <div class="form control">
+            <label for="course" id="label-role">
+                <br>Which Option Best Describes You?</br>
+                <!-- <input type="text" id="role"
+                placeholder="Enter Your Course"> -->
+            </label>
+            <select name="role" id="role">
+                <option value="Student">Student</option>
+                <option value="Intern">Intern</option>
+                <option value="Professional"> Professional</option>
+                <option value="tutor"> Tutor</option>
+                <option value="Receptionist">Receptionist</option>
+                <option value="Others"> Others
+                    <label for="others" id="others-role">
+                        <br>Please Specify Your Role</br>
+                        <input type="text" id="others"
+                        placeholder="specify your role">
+                        </label>
+                    </div>
+                        
+                    </label>
+                    <div class="form-control">
+                        <label>
+                           <p> Would You like to Recommend APTECH to A Friend ?
+                        </label>
+                    
+                        <br>
+                        <label for="recommend 1">
+                            <input type="radio"
+                            id="recommemd 1" 
+                            name="recommend">Yes</input>
+                        </br>
+
+                        </label>
+                        <label>
+                            <br>
+                            <label for="recommend 2">
+                                <input type="radio" 
+                                id="recommend 2"
+                                name="recommend">No</input>
+                            </br>
+                            </label>
+                            <label>
+                                <br>
+                                <label for="recommend 3" >
+                                    <input type="radio" 
+                                    id="recommend 3"
+                                    name="recommend">Maybe</input>
+                                </br>
+                            </p>
+                            </label>
+                        </label> 
+                    </div>
+                   
+
+                  
+                </option>
+            </select>
+
+
+        </div>
+
+    </div>
+    <div>
+        <div class="form-control">
+            <label>
+                <p>
+                Available Courses
+                <small>(Check all that Apply)</small>
+                </p>
+            </label>
+            <p>
+            <label for="inp 1">
+                <input type="checkbox"
+                    name="inp"> HTML</input>
+            </p>
+
+            </label>
+            <label>
+                <p>
+                <label for="inp 2">
+                   <input type="checkbox"
+                          name="inp"> CSS</input>
+                </p>
+            </label>
+            <label>
+                <p>
+                <label for="inp 3">
+                <input type="checkbox"
+                       name="inp"> Responsive Web Development</input>
+</p>
+            </label>
+            <p>
+            <label for="inp 4">
+                <input type="checkbox"
+                   name="inp">C</input>
+            </p>
+            </label>
+            <label>
+                <p>
+                    <label for="inp 5">
+                        <input type="checkbox"
+                               name="inp">C++</input>
+                </p>
+            </label>
+            <label>
+                <p>
+                    <label for="inp 6">
+                        <input type="checkbox"
+                        name="inp"> Ethical Hacking</input>
+                </p>
+            </label>
+            <label>
+                <p>
+                    <label for="inp 7">
+                        <input type="checkbox"
+                        name="inp">Django</input>
+                </p>
+            </label>
+            <label>
+                <p>
+                    <label for="inp 8">
+                        <input type="checkbox"
+                        name="inp">Python</input>
+                </p>
+            </label>
+            <label>
+                <p>
+                    <label for="inp 9">
+                        <input type="checkbox"
+                        name="inp">Ethical Hacking</input>
+                </p>
+            </label>
+            <label>
+                <p>
+                    <label for="inp 10">
+                        <input type="checkbox"
+                        name="inp">Digital Marketing</input>
+                </p>
+            </label>
+
+    </div>
+    <div class="form-control">
+        <label for="comment">
+            Any Comment or Suggestion
+            
+        </label>
+        <br>
+        <textarea name="comment" id="comment"
+        placeholder="Enter Your Comment Here">
+        </textarea>
+    </br>
+    </div>
+    <button type="submit" value="submit">
+        Submit
+
+    </button>
+</fieldset>
+</form>
+</body>
+</html>
